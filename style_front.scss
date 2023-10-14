@@ -1,0 +1,81 @@
+@use 'algemeen' as *;
+
+
+.front_landing{
+h1 {
+  font-size: 100px;
+  color: $color-text;
+  box-shadow: inset 0 0 0 0 $color-blue;
+  transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+  :hover {
+    box-shadow: inset 0 -200px 0 0  $color-blue;
+    color: $color-text ;
+  }
+
+}
+  h2 {
+    font-size: 40px;
+    color: $color-text;
+    font-weight: lighter;
+  }
+  ul li {
+    font-size: 25px;
+    margin: 2rem;
+  }
+}
+
+
+
+#test {
+  display: flex;
+}
+
+
+.mainimg {
+  float: right;
+  width: 40%;
+  height: auto;
+  img {
+    width: 70%;
+    height: auto;
+    margin: 10rem 0 0 20rem;
+  }
+}
+
+#readmore {
+  font-size: 20px;
+  margin: 2rem 3rem;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  :hover {
+    color: $color-blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+hr {
+  margin-top: 5rem;
+  border: 1px solid $color-text;
+}
+.shadow__btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: $color-text;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  background: $color-blue;
+  box-shadow: 0 0 25px $color-blue;
+  :hover {
+    box-shadow: 0 0 5px $color-blue,
+    0 0 25px $color-blue,
+    0 0 50px $color-blue,
+    0 0 100px $color-blue;
+  }
+}

@@ -1,0 +1,201 @@
+body {
+  background-color: #121212;
+}
+body h1 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+body h2 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+body p {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+body ul li {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+body main {
+  width: 80%;
+  margin: 2rem auto 0 auto;
+}
+
+.front_landing h1 {
+  font-size: 100px;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 0 rgb(0, 140, 255);
+  transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+.front_landing h1 :hover {
+  box-shadow: inset 0 -200px 0 0 rgb(0, 140, 255);
+  color: #ffffff;
+}
+.front_landing h2 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.front_landing ul li {
+  font-size: 25px;
+  margin: 2rem;
+}
+
+#test {
+  display: flex;
+}
+
+.mainimg {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+.mainimg img {
+  width: 70%;
+  height: auto;
+  margin: 10rem 0 0 20rem;
+}
+
+#readmore {
+  font-size: 20px;
+  margin: 2rem 3rem;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+#readmore :hover {
+  color: rgb(0, 140, 255);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+hr {
+  margin-top: 5rem;
+  border: 1px solid #ffffff;
+}
+
+.shadow__btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #ffffff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+.shadow__btn :hover {
+  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255), 0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+body .form {
+  margin: 2rem auto 0 auto;
+  width: 60%;
+  padding: 10rem 0 10rem 0;
+  border-radius: 1rem;
+}
+body .form .form_veld {
+  display: flex;
+  margin: 14px;
+}
+body .form .form_veld input {
+  width: 70%;
+  margin: 0 auto;
+}
+body .login input {
+  color: #ffffff;
+  border-radius: 0.25rem;
+  padding: 16px;
+  background-color: #363636;
+}
+body .arrow-left {
+  display: block;
+  margin: 30px 0 0 2rem;
+  width: 25px;
+  height: 25px;
+  border-top: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
+  transform: rotate(-45deg);
+}
+body .text_center {
+  margin-top: 2rem;
+  text-align: center;
+}
+body a {
+  color: rgb(0, 140, 255);
+}
+
+.login input[type=submit] {
+  background-color: rgb(0, 140, 255);
+  color: #121212;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0 0;
+  width: 100%;
+}
+nav img {
+  width: 4%;
+  height: auto;
+  margin: 0 10rem 0 5rem;
+}
+nav i {
+  margin: 0 3rem;
+}
+nav h1 {
+  width: 10%;
+}
+nav h1 :hover {
+  color: rgb(0, 140, 255);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.icons {
+  margin: 0 2rem 0 auto;
+}
+
+.checkBox {
+  display: block;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px #fff;
+}
+
+main {
+  padding-top: 2rem;
+}
+
+#filter p {
+  font-size: 20px;
+  margin: 0 0 0 1rem;
+}
+
+.filter_component {
+  display: flex;
+  margin: 0 0 2rem 0;
+}
+
+.underline {
+  width: 30%;
+  margin: 0 auto 2rem 0;
+}
+
+/*# sourceMappingURL=main.css.map */

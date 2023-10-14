@@ -1,0 +1,27 @@
+@use 'algemeen' as *;
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0 0;
+  width: 100%;
+  img {
+    width: 4%;
+    height: auto;
+    margin: 0 10rem 0 5rem;
+  }
+  i {
+    margin: 0 3rem;
+  }
+  h1 {
+    width: 10%;
+    :hover {
+      color: $color-blue;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+.icons {
+  margin: 0 2rem 0 auto;
+}

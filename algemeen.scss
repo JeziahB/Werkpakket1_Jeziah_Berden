@@ -1,0 +1,34 @@
+$color-blue: rgb(0,140,255);
+$color-text: #ffffff;
+$color-dark: #121212;
+
+
+
+
+
+
+
+body {
+  background-color: $color-dark;
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    color: $color-text;
+  }
+  h2 {
+    font-family: 'Inter', sans-serif;
+    color: $color-text;
+  }
+  p {
+    font-family: 'Inter', sans-serif;
+    color: $color-text;
+  }
+  ul li {
+    font-family: 'Inter', sans-serif;
+    color: $color-text;
+  }
+  main {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+  }
+}
